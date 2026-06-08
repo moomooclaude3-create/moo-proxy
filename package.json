@@ -1,0 +1,15 @@
+{
+  "name": "moo-proxy",
+  "version": "1.0.0",
+  "description": "WebSocket + HTTP relay proxy for ParmaBots",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
